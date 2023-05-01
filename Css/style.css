@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(101, 173, 202);
+    font-family: 'PT Sans', sans-serif;
+}
+
+nav {
+    display: flex;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+
+}
+
+.logo img {
+    width: 85px;
+    padding: 0 25px;
+}
+
+nav ul {
+    height: 58px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 0 23px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+
+}
+
+nav ul li a :hover {
+
+    font-weight: bolder;
+
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
+.search input {
+    width: 490px;
+    height: 27px;
+    border: 5px;
+    border-color: black;
+    border-radius: 2px;
+    margin: 0 16px 0 56px;
+}
+.card{
+    max-width: 91vw;
+    margin: 37px auto;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.cards{
+    display: flex; 
+    overflow: hidden;
+}
+
+.card-item{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 15px;
+    overflow: hidden;
+}
+.card h2{
+    font-family: 'PT Sans', sans-serif;
+}
+
+.continer {
+    min-height: calc(100vh - 58px - 12vh);
+}
+
+
+
+footer {
+    height: 12vh;
+    background-color: rgb(101, 173, 202);
+    color: black;
+    font-family: 'PT Sans', sans-serif;
+
+}
